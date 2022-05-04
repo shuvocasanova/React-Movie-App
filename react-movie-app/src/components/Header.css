@@ -1,0 +1,16 @@
+
+.search{
+    background-color: #333436;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search input {
+        font-family: inherit;
+        font-size: 1.2rem;
+        border: 2px solid #333436;
+        border-radius: 50px;
+        color: #333436;
+        padding: 0.5rem 1.5rem;
+}
