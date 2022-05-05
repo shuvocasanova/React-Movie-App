@@ -24,13 +24,18 @@ function Header({setStateofParrent}) {
     }
     // console.log(setStateofParrent, "clicked")
   return (
+      <div>
+          <div></div>
     <div className='search'>
+
+        <button className='button' ><a href='/'>Home</a></button>
         <form onSubmit={handleSubmit}>
         <input type='text' placeholder='Search' 
         value={searchTerm}
         onChange={handleChange}
         />
         </form>
+    </div>
     </div>
   )
 }
